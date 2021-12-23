@@ -7,7 +7,7 @@ class Product
 
     public function __construct()
     {
-        $this->db = Connect::connect();
+        $this->db = Connect::connectto();
     }
 
 

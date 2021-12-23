@@ -1,9 +1,8 @@
 <?php
 	class Connect {
-		public static function connect(){
-			$conexion = new mysqli("localhost", "root", "", "example_bd");
+		public static function connectto(){
+			$conexion = new mysqli("localhost", "root", "productsdb", "products");
 			return $conexion;
 			
 		}
 	}
-?>

@@ -8,7 +8,7 @@ class User
 
 	public function __construct()
 	{
-		$this->db = Connect::connect();
+		$this->db = Connect::connectto();
 		session_start();
 	}
 
