@@ -23,8 +23,8 @@
             <div class="container-right-form">
                 <h2>SIGN IN</h2>
                 <form method="POST" action="/mvc-php/index.php?type=user&action=login">
-                    <input required type="text" placeholder="Username" name="username" id="username" />
-                    <input required type="password" placeholder="Password" name="password" id="password" />
+                    <input required type="text" placeholder="Username: danielm2402" name="username" id="username" />
+                    <input required type="password" placeholder="Password: clsestudiante" name="password" id="password" />
                     <button type="submit">SIGN IN</button>
                 </form>
                 <h5><?php echo $_SESSION["error"]; ?></h5>

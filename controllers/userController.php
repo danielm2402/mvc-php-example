@@ -1,6 +1,5 @@
 <?php
 
-$error = 'hola';
 class userController
 {
 
